@@ -4,7 +4,7 @@ SimpleKeyGen: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamical
 ```
 
 * Analyzed with all options enabled
-* Functions > checkSerial contains algorithm
+* Functions > checkSerial() contains algorithm
 * Algorithm:
     * serial must be 16 characters
     * check every pair of characters:
