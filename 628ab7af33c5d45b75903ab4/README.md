@@ -1,7 +1,13 @@
+```
+file Yxupy\ Crackme/Crack\ Me.exe
+Yxupy Crackme/Crack Me.exe: PE32 executable (GUI) Intel 80386, Mono/.Net assembly, for MS Windows, 3 sections
+```
+
 flag: 8103535
 
 Found using Ghidra's "Window > Defined Strings" feature
 
+```
 [...]
 0040590e	8103535					unicode
 0040591e	Lel..					unicode
@@ -18,3 +24,4 @@ Found using Ghidra's "Window > Defined Strings" feature
 00405a00	135315					unicode
 00405a0e	Hooogriiiderr....		unicode
 [...]
+```

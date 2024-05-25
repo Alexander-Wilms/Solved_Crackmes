@@ -1,3 +1,8 @@
+```
+file SimpleKeyGen 
+SimpleKeyGen: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=4b657ffd4f43a704861b200c9f2235f8fe395e27, not stripped
+```
+
 * Analyzed with all options enabled
 * Functions > checkSerial contains algorithm
 * Algorithm:
