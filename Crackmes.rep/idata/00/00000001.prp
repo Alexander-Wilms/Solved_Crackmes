@@ -2,10 +2,10 @@
 <FILE_INFO>
     <BASIC_INFO>
         <STATE NAME="CONTENT_TYPE" TYPE="string" VALUE="Program" />
-        <STATE NAME="PARENT" TYPE="string" VALUE="/5c2acb8933c5d46a3882b8d4" />
-        <STATE NAME="FILE_ID" TYPE="string" VALUE="c0a8280895f35470334241486" />
+        <STATE NAME="PARENT" TYPE="string" VALUE="/628ab7af33c5d45b75903ab4" />
+        <STATE NAME="FILE_ID" TYPE="string" VALUE="c0a8280b46739042339949991" />
         <STATE NAME="FILE_TYPE" TYPE="int" VALUE="0" />
         <STATE NAME="READ_ONLY" TYPE="boolean" VALUE="false" />
-        <STATE NAME="NAME" TYPE="string" VALUE="SimpleKeyGen" />
+        <STATE NAME="NAME" TYPE="string" VALUE="Crack Me.exe" />
     </BASIC_INFO>
 </FILE_INFO>
