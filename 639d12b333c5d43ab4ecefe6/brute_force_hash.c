@@ -45,7 +45,7 @@ int main(void) {
 										//printf("%s\n", copy);
 										hash = fnv_1a_32(copy);
 
-										if (hash == 0xf9b9b765) {
+										if (hash == 4189697893) {
 											printf("cracked!\n");
 											printf("The string '%s' results in the Fowler-Noll-Vo hash '%d'", input, hash);
 										}
