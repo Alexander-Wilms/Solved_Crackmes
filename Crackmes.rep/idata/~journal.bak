@@ -1,5 +1,2 @@
-IADD:00000018:/CrackMe.exe
-IDSET:/CrackMe.exe:c0a8290b28b9035658862388
-FADD:/NewFolder
-FMV:/NewFolder:/64289ceb33c5d43938912378
-IMV:/CrackMe.exe:/64289ceb33c5d43938912378/CrackMe.exe
+IDEL:/6613d4a5cddae72ae250c34c/SerialGen.exe
+IMV:/SerialGen.exe:/6613d4a5cddae72ae250c34c/SerialGen.exe
