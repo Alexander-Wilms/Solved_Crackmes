@@ -1,0 +1,15 @@
+IADD:00000014:/getting_started
+IDSET:/getting_started:c0a829097a78213798402603
+FADD:/NewFolder
+FMV:/NewFolder:/660a24f1cddae72ae250bf56
+IMV:/getting_started:/660a24f1cddae72ae250bf56/getting_started
+IADD:00000015:/getting_started
+IDSET:/getting_started:c0a829085a78276541205315
+IDEL:/660a24f1cddae72ae250bf56/getting_started
+FDEL:/660a24f1cddae72ae250bf56
+IDEL:/getting_started
+IADD:00000016:/getting_started
+IDSET:/getting_started:c0a82909e298323255163134
+FADD:/NewFolder
+FMV:/NewFolder:/660a24f1cddae72ae250bf56
+IMV:/getting_started:/660a24f1cddae72ae250bf56/getting_started
