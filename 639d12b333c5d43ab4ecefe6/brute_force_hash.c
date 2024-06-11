@@ -42,7 +42,7 @@ int main(void) {
 										input[8] = (char)i_8;
 
 										strncpy(copy, input, 9);
-										//printf("%s\n", copy);
+										// printf("%s\n", copy);
 										hash = fnv_1a_32(copy);
 
 										if (hash == 4189697893) {
