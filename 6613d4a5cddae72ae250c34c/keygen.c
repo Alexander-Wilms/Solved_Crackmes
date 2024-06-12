@@ -9,10 +9,6 @@ int return_32() {
 int main(void) {
 	char _32;
 	size_t string_length;
-	char *expected_string;
-	char strings_dont_match;
-	char dash;
-	char *local_38;
 	uint local_34;
 	uint serial_4;
 	char *tmp;
@@ -20,7 +16,6 @@ int main(void) {
 	uint serial_2;
 	uint serial_1;
 	size_t i;
-	char *serial_key_input;
 	char *user_name;
 	char two;
 	char one;
@@ -40,7 +35,6 @@ int main(void) {
 	if (string_length == zero) {
 		printf(" Username required!\n");
 	} else {
-
 		serial_1 = 0;
 		serial_2 = 0;
 		serial_3 = 0;
