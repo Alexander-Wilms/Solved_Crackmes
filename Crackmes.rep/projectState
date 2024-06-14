@@ -3,6 +3,7 @@
     <PROJECT_DATA_XML_NAME NAME="DISPLAY_DATA">
         <SAVE_STATE>
             <ARRAY NAME="EXPANDED_PATHS" TYPE="string">
+                <A VALUE="Crackmes:65a172f0eef082e477ff5a6e:" />
                 <A VALUE="Crackmes:" />
             </ARRAY>
             <STATE NAME="SHOW_TABLE" TYPE="boolean" VALUE="false" />
