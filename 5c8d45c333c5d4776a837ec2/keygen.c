@@ -58,6 +58,7 @@ void get_next_possible_password(char *password) {
 		password[strlen(password) + 1] = 0;
 
 		for (i = 0; i < strlen(password); i++) {
+			// so far, the first (and only) key found during each run depended on this initialization char
 			password[i] = '0';
 		}
 	}
