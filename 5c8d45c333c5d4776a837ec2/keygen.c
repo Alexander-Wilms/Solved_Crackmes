@@ -44,7 +44,7 @@ bool is_only_tildes(char *password) {
 	return true;
 }
 
-void get_next_possible_password(char *password) {
+void get_next_possible_password(char *password, char init_char) {
 	// printf("get_next_possible_password()\n");
 	char current_char;
 
@@ -59,7 +59,7 @@ void get_next_possible_password(char *password) {
 
 		for (i = 0; i < strlen(password); i++) {
 			// so far, the first (and only) key found during each run depended on this initialization char
-			password[i] = '0';
+			password[i] = init_char;
 		}
 	}
 
@@ -87,12 +87,16 @@ int main(void) {
 
 	strcpy(possible_password, "!");
 	int number_of_found_keys = 0;
+	char init_char = '!';
 	while (number_of_found_keys < 50) {
-		get_next_possible_password(possible_password);
+		get_next_possible_password(possible_password, init_char);
+
 		key_found = is_valid_key(possible_password);
 		if (key_found) {
-			printf("%s\n", possible_password);
+			printf("%2d: %s\n", number_of_found_keys, possible_password);
 			number_of_found_keys++;
+			strcpy(possible_password, "!");
+			init_char++;
 		}
 	}
 }
