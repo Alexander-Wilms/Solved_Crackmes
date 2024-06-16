@@ -2,3 +2,4 @@
 .dolphin*
 a.out
 .venv
+.directory
