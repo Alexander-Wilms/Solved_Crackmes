@@ -1,1 +1,9 @@
-IDEL:/a.out
+FADD:/NewFolder
+FMV:/NewFolder:/653d87bb0f4238b24302b0cc
+IADD:0000003a:/653d87bb0f4238b24302b0cc/crackme0x00
+IDSET:/653d87bb0f4238b24302b0cc/crackme0x00:c0a829bac9761061828802619
+IMV:/heaven.exe:/64f1f77ad931496abf90951d/heaven.exe
+IMV:/MSVCRT.DLL:/64f1f77ad931496abf90951d/MSVCRT.DLL
+IMV:/KERNEL32.DLL:/64f1f77ad931496abf90951d/KERNEL32.DLL
+IMV:/messy_crackme.exe:/656fa20d35240bf986f0fe55/messy_crackme.exe
+IMV:/crackme1.exe:/66168bfdcddae72ae250c4c2/crackme1.exe
